@@ -1,0 +1,30 @@
+{
+    "remotePath": "./",
+    "host": "ftp.abcprint.online",
+    "username": "u753751205.ftpabcprint",
+    "password": "mC^&Y5Ry#=GCSPy",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store",
+        "\\.htaccess",
+        "\\database.php",
+        "database.php"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}
