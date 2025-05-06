@@ -207,10 +207,11 @@ class Pos extends CI_Controller {
 			  $Tgl_DP = $row['Z']; 
 			  $Tgl_Lunas = $row['AA']; 
 			  $NoInvoice = $row['AB']; 
-			  $Status = $row['AC']; 
-			  $Validasi = $row['AD']; 
-			  $User = $row['AE']; 
-			  $Mesin = $row['AF']; 
+			  $NoSuratJalan = $row['AC']; 
+			  $Status = $row['AD']; 
+			  $Validasi = $row['AE']; 
+			  $User = $row['AF']; 
+			  $Mesin = $row['AG']; 
 
 			  $data = array(
 				'id' => $id,
@@ -241,6 +242,7 @@ class Pos extends CI_Controller {
 				'Tgl_DP' => $Tgl_DP,
 				'Tgl_Lunas' => $Tgl_Lunas,
 				'NoInvoice' => $NoInvoice,
+				'NoSuratJalan' => $NoSuratJalan,
 				'Status' => $Status,
 				'Validasi' => $Validasi,
 				'User' => $User,

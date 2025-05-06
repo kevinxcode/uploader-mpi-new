@@ -73,7 +73,7 @@
             <tr>
 							<td><?php echo $i++; ?></td>
                 <td><?php echo $dt->NoInvoice; ?></td>
-                <td><?php echo $dt->invoice_date; ?></td>
+                <td><?php echo $dt->Tanggal; ?></td>
                 <td><?php echo $dt->Customer; ?></td>
                 <td><?php echo $dt->StatusBayar; ?></td>
 								<td><?php echo $dt->inv_total; ?></td>
